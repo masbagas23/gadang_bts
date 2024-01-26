@@ -19,3 +19,9 @@ Teknologi yang saya gunakan, yaitu :
  7. `php artisan jwt:secret` 
  8. `php artisan key:generate`
  9. `php artisan server`
+## JSON Web Token
+Selama karir saya dibidang programming, saya beberapa kali menggunakan JWT sebagai metode otentikasi pada aplikasi yang saya buat. Sebagian besar JWT saya gunakan untuk mengatur hak akses user dalam mengkonsumsi sebuan end-point dari api itu sendiri. 
+
+Salah satu alasan kenapa JWT pernah saya gunakan, karena JWT dapat dimodifikasi payloadnya dengan disisipi beberapa data yang kita butuhkan kedalam CLAIMS saat generate token nya.
+
+JWT pernah saya gunakan ketika membuat fitur Single Sign On, sehingga satu akun bisa digunakan dibeberapa website/domain. Layanan ini saya buat menggunakan aplikasi third party yaitu KeyCloack.
